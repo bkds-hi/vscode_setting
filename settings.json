@@ -10,5 +10,7 @@
   // 空白を可視化
   "editor.renderWhitespace": "all",
   // 制御文字を可視化
-  "editor.renderControlCharacters": true
+  "editor.renderControlCharacters": true,
+  "editor.lineNumbers": "relative",
+  "workbench.colorTheme": "Tokyo Night Light"
 }

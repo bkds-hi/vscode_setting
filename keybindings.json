@@ -1,13 +1,30 @@
 // Place your key bindings in this file to override the defaults
 [
   {
+    "key": "ctrl+q",
+    "command": ""
+  },
+  // file explorer
+  {
     "key": "ctrl+shift+e",
     "command": "workbench.files.action.focusFilesExplorer",
-    "when": "!filesExplorerFocus"
+    "when": "!explorerViewletVisible"
   },
   {
     "key": "ctrl+shift+e",
     "command": "workbench.action.closeSidebar",
-    "when": "!editorTextFocus"
+    "when": "sideBarFocus"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.findInFiles"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.togglePanel"
   }
 ]
